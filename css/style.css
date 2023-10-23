@@ -20,7 +20,7 @@ body{
 ul li {
     text-decoration: none;
     display: inline-block;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 *,
@@ -37,13 +37,13 @@ ul li {
 }
 
 
-.container :is(#example1, #example2), 
+.container :is(#Active1, #Active2), 
 .button-wrapper {
     display: flex;
     gap: 14rem;
 }
 
-.container :is(#example2) {
+.container :is(#Active2) {
     flex-flow: row wrap;
 }
 .item {
@@ -66,8 +66,6 @@ img{
     border-radius: 40%;
 }
 #abt{
-    padding-top: 10%;
-    font-size: x-large;
-    font-weight: bolder;
-
+    padding-top: 5%;
+    font-size: bold;
 }
